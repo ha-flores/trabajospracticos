@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 62%;
+	height: 110px;
+	margin:auto;
+}
+/*Comienzo del header*/
+.logo-nav{
+	padding: 37.5px 10px;
+	height: 25px;
+}
+.menu li a{
+	font:700 0.8em 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color:#000;
+}
+.menu li a[href="hostro.html"]{
+	color:#999;
+}
+.menu li a:hover{
+	color:#000;
+}
+nav{
+	padding: 4.5px 0;
+	float: right;
+}
+.menu li{
+	margin: auto 15px;
+	display: inline-block;
+}
+/*Fin del header*/
+/*Comienzo de background image 1*/
+#imagendefondo1{
+	clear: both;
+	background-color: #000;
+	background-image: url("../imagenes/indexbanner-bg2.jpg");
+    height: 550px;
+  	position: relative;
+  	z-index: -1;
+}
+#imagendefondo1 h1{
+	position: absolute;
+	top: 43%;
+	left: 8%;
+	font:700 3em 'Raleway', sans-serif;
+	text-transform: capitalize;
+	color: #fff;
+}
+#imagendefondo1 p{
+	position: relative;
+	top: 55%;
+	font:400 1.1em 'Raleway', sans-serif;
+	color: #C2C5CC;
+	padding: 0 0 15px 8%;
+}
+/*Fin de background image 1*/
+/*Comienzo del formulario*/
+#formulario .container{
+	height: 480px;
+}
+#formulario h2{
+	text-align: center;
+	font:700 2.5em 'Raleway', sans-serif;
+	text-transform: capitalize;
+	padding-top: 150px;
+}
+#formulario p{
+	text-align: center;
+	font:300 1.1em 'Raleway', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#formulario .container div .col1{
+	display: inline-block;
+}
+#formulario .container div input{
+	display: block;
+	padding: 15px;
+	margin: 10px;
+	width:560px;
+	border: 1px solid #E1E3E4;
+	font:400 0.9em 'Raleway', sans-serif;
+}
+#formulario .container div .col2{
+	display: inline-block;
+	float: right;
+}
+#formulario .container div textarea{
+	display: block;
+	resize: none;
+	padding: 15px;
+	margin: 10px;
+	width:560px;
+	height: 166px;
+	border: 1px solid #E1E3E4;
+	font:400 0.9em 'Raleway', sans-serif;
+}
+#formulario .container .boton{
+	margin-top: 50px;
+}
+#formulario .container a{
+	background-color: #00A3E2; 
+	border-radius: 5px; 
+	margin: 0px 43%;
+	padding: 15px 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	font:700 0.8em 'Raleway', sans-serif; 
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#fff;
+}
+/*Final del formulario*/
+/*Comienzo del hosting*/
+#hosting{
+	margin-top: 200px;
+	height: 250px;
+	background-color: #233141;
+}
+#hosting .container h2{
+	text-align: center;
+	font:400 2em 'Raleway', sans-serif;
+	padding-top: 100px;
+	color: #fff;
+}
+#hosting .container span{
+	font:700 1.1em 'Open Sans', sans-serif;
+	color: #00AFF1;
+}
+/*Final del hosting*/
+/*Comienzo del Footer*/
+#pie{
+	background-color: #151D26;
+	height: 150px;
+} 
+#pie .container p{
+	font:400 0.8em 'Raleway', sans-serif;
+	color:#B8BBC2;
+	padding-top: 65px ;
+	display: inline-block;	
+}
+.menu2 li a{
+	font:400 0.8em 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color:#B8BBC2;
+}
+.menu2 li a:hover{
+	color:#00AFF1;
+}
+#pie .container nav{
+	padding-top: 60px;
+	float: right;
+}
+.menu2 li{
+	margin: auto 15px;
+	display: inline-block;
+}
+/*Final del Footer*/
